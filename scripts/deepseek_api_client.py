@@ -78,8 +78,8 @@ class DeepSeekClient:
 def create_client_from_env() -> DeepSeekClient:
     """Create client from environment variables"""
     
-    # Load environment variables
-    load_dotenv()
+    # Load environment variables with override to ensure .env file takes precedence
+    load_dotenv(override=True)
     
     api_key = os.getenv("DEEPSEEK_API_KEY")
     if not api_key:

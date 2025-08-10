@@ -33,6 +33,9 @@ def ask_ai_provider(prompt, mute=False):
 
 def ask_deepinfra(prompt, system_message="You are a highly intelligent AI assistant. Your primary goal is to provide responses that demonstrate deep reasoning, accuracy, and strict adherence to the user's instructions.", model='deepseek-ai/DeepSeek-V3-0324'):
     try:
+        # Ensure .env file is loaded with override
+        load_dotenv(override=True)
+        
         client = OpenAI(
             api_key=os.getenv("DEEPINFRA_API_KEY"),
             base_url="https://api.deepinfra.com/v1/openai"
@@ -96,6 +99,9 @@ def ask_deepinfra(prompt, system_message="You are a highly intelligent AI assist
         }
     
 def ask_gemini(prompt, model='gemini-2.0-flash', mute=False):
+    # Ensure .env file is loaded with override
+    load_dotenv(override=True)
+    
     print(f"Model being used: {model}")
     if not mute:
         print("=================== P R O M P T ===================")
