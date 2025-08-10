@@ -54,15 +54,25 @@ def setup_browser_context(playwright, headless: bool = None) -> Tuple[Any, Page]
                 "--disable-features=TranslateUI",  # Disable translate UI
                 "--disable-background-timer-throttling",  # Disable background throttling
                 "--disable-backgrounding-occluded-windows",  # Disable backgrounding
-                "--disable-renderer-backgrounding"  # Disable renderer backgrounding
+                "--disable-renderer-backgrounding",  # Disable renderer backgrounding
+                "--lang=en-US",            # Set browser language to English (US)
+                "--accept-lang=en-US,en;q=0.9"  # Set Accept-Language header preference
             ]
         )
     else:
-        browser = playwright.chromium.launch(headless=headless)
+        browser = playwright.chromium.launch(
+            headless=headless,
+            args=[
+                "--lang=en-US",            # Set browser language to English (US)
+                "--accept-lang=en-US,en;q=0.9"  # Set Accept-Language header preference
+            ]
+        )
     
     # Create context with dynamic viewport (no fixed dimensions)
     context = browser.new_context(
         user_agent=config.USER_AGENT,
+        locale='en-US',    # Set context locale to English (US)
+        timezone_id='America/New_York',  # Optional: set timezone for consistency
         no_viewport=True  # Let viewport adjust dynamically to window size
     )
     
