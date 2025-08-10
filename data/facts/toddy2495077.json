@@ -1,0 +1,17 @@
+{
+  "name": "Toddy",
+  "age": null,
+  "living_location": "New Zealand",
+  "living_locations_time_difference_to_bali_time": 4,
+  "additional_information": [
+    "Job: Garlic farmer (specializes in Red Turban Garlic)",
+    "Former Job: Mechanic",
+    "Hobbies: Motorbikes, photography, swimming",
+    "Motorbikes owned: Harley Davidson, Ducati, Suzuki (favorite is Suzuki)",
+    "Travel Experience: 7-month motorbike trip in North America",
+    "Likes: Quiet places, coffee, swimming pools, spas",
+    "Dislikes: Overly touristy areas, noisy environments",
+    "Farming Specialty: Grows large red garlic unmatched in New Zealand"
+  ],
+  "future_plans": []
+}

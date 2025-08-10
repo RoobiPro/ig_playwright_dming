@@ -1,0 +1,67 @@
+{
+  "prompt_type": "media_response",
+  "mission": "Respond appropriately to their shared media (photos, videos, music, etc.)",
+  "situation": {
+    "media_context": {
+      "date": "23.07.2025 04:45",
+      "sent_by": "Willie S. Joaquin",
+      "message": [
+        "scottsworldtravels",
+        "Clip"
+      ]
+    },
+    "conversation_history": [
+      {
+        "date": "22.07.2025 06:55",
+        "sent_by": "Willie S. Joaquin",
+        "message": "Cruising Bali in New Year Royal Caribbean Ovationof theSeas"
+      },
+      {
+        "date": "22.07.2025 17:56",
+        "sent_by": "kaila_mentari_",
+        "message": "Hey Willie. What's Royal Caribbean Ovation of the seas? Is that like a cruise ship?"
+      },
+      {
+        "date": "22.07.2025 22:01",
+        "sent_by": "Willie S. Joaquin",
+        "message": "Yes, docking in Celukan, Bali, Benoa, Bali and Lombok. December 30, 31 and January1."
+      },
+      {
+        "date": "23.07.2025 04:45",
+        "sent_by": "Willie S. Joaquin",
+        "message": [
+          "scottsworldtravels",
+          "Clip"
+        ]
+      }
+    ]
+  },
+  "response_approach": [
+    "Comment on what they shared specifically",
+    "Show genuine interest and appreciation",
+    "Ask relevant follow-up questions",
+    "Connect to conversation naturally"
+  ],
+  "critical_requirements": [
+    "Be specific about what they shared",
+    "Show genuine interest",
+    "CRITICAL: NEVER use hyphens (-) or dashes (—, –) - use commas or periods instead",
+    "Keep it engaging and conversational"
+  ],
+  "HYPHEN_BAN": {
+    "ABSOLUTELY_FORBIDDEN": [
+      "- (hyphen)",
+      "— (em-dash)",
+      "– (en-dash)"
+    ],
+    "USE_INSTEAD": [
+      ", (comma)",
+      ". (period)",
+      "and",
+      "or",
+      "but"
+    ],
+    "ENFORCEMENT": "If your response contains ANY hyphens or dashes, it will be automatically rejected"
+  },
+  "output_format": "Return JSON: {\"message\": \"your_response_here\"}"
+}

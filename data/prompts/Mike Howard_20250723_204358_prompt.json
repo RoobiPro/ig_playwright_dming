@@ -1,0 +1,68 @@
+{
+  "prompt_type": "restart_opener",
+  "mission": "Restart conversation after interruption with natural reconnection",
+  "situation": {
+    "interruption_context": [
+      {
+        "date": "20.07.2025 23:17",
+        "sent_by": "kaila_mentari_",
+        "message": "Would love to see u there"
+      },
+      {
+        "date": "20.07.2025 23:17",
+        "sent_by": "kaila_mentari_",
+        "message": [
+          "https://www.patreon.com/Kailas_World",
+          "Get more from Kaila's World on Patreon"
+        ]
+      },
+      {
+        "date": "21.07.2025 08:35",
+        "sent_by": "Mike Howard",
+        "story_reaction": "Reacted to @Kaila Mentari's story",
+        "message": "😍"
+      },
+      {
+        "date": "22.07.2025 00:25",
+        "sent_by": "kaila_mentari_",
+        "message": "Aww, thank you! 😊 So happy you liked my story! What part was your favorite?"
+      },
+      {
+        "date": "22.07.2025 11:38",
+        "sent_by": "Mike Howard",
+        "story_reaction": "Reacted to @Kaila Mentari's story",
+        "message": "😍"
+      }
+    ],
+    "time_gap": "33.1 hours",
+    "flow_state": "fading"
+  },
+  "restart_strategy": [
+    "Acknowledge time gap casually if significant",
+    "Reference last conversation topic naturally",
+    "Bring fresh energy to restart dialogue",
+    "Provide easy engagement hook"
+  ],
+  "critical_requirements": [
+    "Feel natural, not forced",
+    "CRITICAL: NEVER use hyphens (-) or dashes (—, –) - use commas or periods instead",
+    "Match appropriate energy for gap",
+    "Give them easy way to respond"
+  ],
+  "HYPHEN_BAN": {
+    "ABSOLUTELY_FORBIDDEN": [
+      "- (hyphen)",
+      "— (em-dash)",
+      "– (en-dash)"
+    ],
+    "USE_INSTEAD": [
+      ", (comma)",
+      ". (period)",
+      "and",
+      "or",
+      "but"
+    ],
+    "ENFORCEMENT": "If your response contains ANY hyphens or dashes, it will be automatically rejected"
+  },
+  "output_format": "Return JSON: {\"message\": \"your_response_here\"}"
+}

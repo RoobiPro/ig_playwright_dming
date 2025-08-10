@@ -1,0 +1,19 @@
+{
+  "name": "Gerd Witt",
+  "age": null,
+  "living_location": "North Rhine Westphalia, Germany",
+  "living_locations_time_difference_to_bali_time": -6,
+  "additional_information": [
+    "Job: Works at a wooden factory",
+    "Side Hustle: Scriptwriting for film festivals",
+    "Hobby: Baking (bread and cakes like Black Forest cake)",
+    "Value: Believes in self-improvement (sports/healthy eating)",
+    "Dream Job (Childhood): Excavator driver (later found it boring)",
+    "Health Philosophy: Critiques poor work-life balance/unhealthy lifestyles",
+    "Current Health: Recovering from elbow surgery (temporary, excluded from core info)"
+  ],
+  "future_plans": [
+    "Goal: Become self-employed if scriptwriting succeeds",
+    "Goal: Sell scripts to resolve financial constraints"
+  ]
+}

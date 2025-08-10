@@ -1,0 +1,72 @@
+{
+  "prompt_type": "restart_opener",
+  "mission": "Restart conversation after interruption with natural reconnection",
+  "situation": {
+    "interruption_context": [
+      {
+        "date": "22.07.2025 05:39",
+        "sent_by": "Mark Spencer",
+        "story_shared": "Shared your story",
+        "message": [
+          "kaila_mentari_",
+          "React to message from Mark Spencer",
+          "Reply to message from Mark Spencer"
+        ]
+      },
+      {
+        "date": "22.07.2025 05:39",
+        "sent_by": "Mark Spencer",
+        "story_reaction": "Reacted to @Kaila Mentari's story",
+        "message": "Nice music choice 🎶🎶💙💙💙"
+      },
+      {
+        "date": "23.07.2025 20:01",
+        "sent_by": "Mark Spencer",
+        "message": [
+          "dr.kamleshnlp_lifecoach",
+          "Clip"
+        ]
+      },
+      {
+        "date": "23.07.2025 20:01",
+        "sent_by": "Mark Spencer",
+        "message": "Because you question the question 🙏🏼 which describes your personality and character 🤔🙈"
+      },
+      {
+        "date": "23.07.2025 20:01",
+        "sent_by": "Mark Spencer",
+        "message": "Good night 💤"
+      }
+    ],
+    "time_gap": "5.3 hours",
+    "flow_state": "fading"
+  },
+  "restart_strategy": [
+    "Acknowledge time gap casually if significant",
+    "Reference last conversation topic naturally",
+    "Bring fresh energy to restart dialogue",
+    "Provide easy engagement hook"
+  ],
+  "critical_requirements": [
+    "Feel natural, not forced",
+    "CRITICAL: NEVER use hyphens (-) or dashes (—, –) - use commas or periods instead",
+    "Match appropriate energy for gap",
+    "Give them easy way to respond"
+  ],
+  "HYPHEN_BAN": {
+    "ABSOLUTELY_FORBIDDEN": [
+      "- (hyphen)",
+      "— (em-dash)",
+      "– (en-dash)"
+    ],
+    "USE_INSTEAD": [
+      ", (comma)",
+      ". (period)",
+      "and",
+      "or",
+      "but"
+    ],
+    "ENFORCEMENT": "If your response contains ANY hyphens or dashes, it will be automatically rejected"
+  },
+  "output_format": "Return JSON: {\"message\": \"your_response_here\"}"
+}

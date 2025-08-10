@@ -1,0 +1,182 @@
+{
+  "analysis": {
+    "last_message": {
+      "date": "23.07.2025 20:01",
+      "sent_by": "Mark Spencer",
+      "message": "Good night 💤"
+    },
+    "hours_since_last": 5.270989134444444,
+    "timing_category": "recent",
+    "last_message_type": "statement",
+    "conversation_flow": "fading",
+    "response_type": "restart_opener",
+    "partner_timezone": null,
+    "conversation_patterns": {
+      "total_exchanges": 79,
+      "kaila_message_count": 26,
+      "partner_message_count": 53,
+      "avg_message_length": 27.5,
+      "media_shared_count": 3,
+      "conversation_length_days": null,
+      "interaction_style": "concise"
+    },
+    "total_messages": 79,
+    "analysis_timestamp": "2025-07-24T01:17:15.560884+08:00"
+  },
+  "context_optimization": {
+    "messages": [
+      {
+        "date": "21.07.2025 20:02",
+        "sent_by": "kaila_mentari_",
+        "message": "Talk soon"
+      },
+      {
+        "date": "21.07.2025 20:02",
+        "sent_by": "Mark Spencer",
+        "original_message_by": "kaila_mentari_",
+        "quoted_text": "Talk soon",
+        "message": "Alright - cya"
+      },
+      {
+        "date": "21.07.2025 23:48",
+        "sent_by": "kaila_mentari_",
+        "message": "Sending good vibes your way 🌸💖 Can't wait to see what moments you capture next!"
+      },
+      {
+        "date": "22.07.2025 05:39",
+        "sent_by": "Mark Spencer",
+        "story_shared": "Shared your story",
+        "message": [
+          "kaila_mentari_",
+          "React to message from Mark Spencer",
+          "Reply to message from Mark Spencer"
+        ]
+      },
+      {
+        "date": "22.07.2025 05:39",
+        "sent_by": "Mark Spencer",
+        "story_reaction": "Reacted to @Kaila Mentari's story",
+        "message": "Nice music choice 🎶🎶💙💙💙"
+      },
+      {
+        "date": "23.07.2025 20:01",
+        "sent_by": "Mark Spencer",
+        "message": [
+          "dr.kamleshnlp_lifecoach",
+          "Clip"
+        ]
+      },
+      {
+        "date": "23.07.2025 20:01",
+        "sent_by": "Mark Spencer",
+        "message": "Because you question the question 🙏🏼 which describes your personality and character 🤔🙈"
+      },
+      {
+        "date": "23.07.2025 20:01",
+        "sent_by": "Mark Spencer",
+        "message": "Good night 💤"
+      }
+    ],
+    "strategy": "recent_active",
+    "context_length": 8,
+    "optimization_reasoning": "Focusing on 8 recent messages from last active period"
+  },
+  "response_data": {
+    "analysis": {
+      "last_message": {
+        "date": "23.07.2025 20:01",
+        "sent_by": "Mark Spencer",
+        "message": "Good night 💤"
+      },
+      "hours_since_last": 5.270989134444444,
+      "timing_category": "recent",
+      "last_message_type": "statement",
+      "conversation_flow": "fading",
+      "response_type": "restart_opener",
+      "partner_timezone": null,
+      "conversation_patterns": {
+        "total_exchanges": 79,
+        "kaila_message_count": 26,
+        "partner_message_count": 53,
+        "avg_message_length": 27.5,
+        "media_shared_count": 3,
+        "conversation_length_days": null,
+        "interaction_style": "concise"
+      },
+      "total_messages": 79,
+      "analysis_timestamp": "2025-07-24T01:17:15.560884+08:00"
+    },
+    "context": {
+      "messages": [
+        {
+          "date": "21.07.2025 20:02",
+          "sent_by": "kaila_mentari_",
+          "message": "Talk soon"
+        },
+        {
+          "date": "21.07.2025 20:02",
+          "sent_by": "Mark Spencer",
+          "original_message_by": "kaila_mentari_",
+          "quoted_text": "Talk soon",
+          "message": "Alright - cya"
+        },
+        {
+          "date": "21.07.2025 23:48",
+          "sent_by": "kaila_mentari_",
+          "message": "Sending good vibes your way 🌸💖 Can't wait to see what moments you capture next!"
+        },
+        {
+          "date": "22.07.2025 05:39",
+          "sent_by": "Mark Spencer",
+          "story_shared": "Shared your story",
+          "message": [
+            "kaila_mentari_",
+            "React to message from Mark Spencer",
+            "Reply to message from Mark Spencer"
+          ]
+        },
+        {
+          "date": "22.07.2025 05:39",
+          "sent_by": "Mark Spencer",
+          "story_reaction": "Reacted to @Kaila Mentari's story",
+          "message": "Nice music choice 🎶🎶💙💙💙"
+        },
+        {
+          "date": "23.07.2025 20:01",
+          "sent_by": "Mark Spencer",
+          "message": [
+            "dr.kamleshnlp_lifecoach",
+            "Clip"
+          ]
+        },
+        {
+          "date": "23.07.2025 20:01",
+          "sent_by": "Mark Spencer",
+          "message": "Because you question the question 🙏🏼 which describes your personality and character 🤔🙈"
+        },
+        {
+          "date": "23.07.2025 20:01",
+          "sent_by": "Mark Spencer",
+          "message": "Good night 💤"
+        }
+      ],
+      "strategy": "recent_active",
+      "context_length": 8,
+      "optimization_reasoning": "Focusing on 8 recent messages from last active period"
+    },
+    "prompt_type": "restart_opener",
+    "ai_response": {
+      "generated_message": "Hey Mark, sorry I disappeared for a bit there. That clip you sent was really interesting, got me thinking about how we approach questions differently. How's your day been since then?",
+      "reasoning": null,
+      "usage": {
+        "prompt_tokens": 571,
+        "completion_tokens": 49,
+        "total_tokens": 620
+      },
+      "success": true,
+      "hyphen_cleanup_applied": false
+    },
+    "generation_timestamp": "2025-07-24T01:17:21.134705"
+  },
+  "timestamp": "20250724_011721"
+}

@@ -1,0 +1,63 @@
+{
+  "prompt_type": "restart_opener",
+  "mission": "Restart conversation after interruption with natural reconnection",
+  "situation": {
+    "interruption_context": [
+      {
+        "date": "21.07.2025 14:03",
+        "sent_by": "Arne Sundström",
+        "message": "🙂🌞"
+      },
+      {
+        "date": "22.07.2025 00:20",
+        "sent_by": "kaila_mentari_",
+        "message": "Good evening from Bali! ☀️ Your life by the lake sounds absolutely dreamy, canoeing and spending time with family sounds like such a beautiful way to live. At 67, you seem so active and full of life! Age is just a number when the connection feels right. I'm actually really drawn to mature partners who have that kind of stability and wisdom. Right now I'm juggling university studies with my village social project here in Bali, lots of beach walks, sketching designs, and sneaking in spicy food challenges when I can! What's your favorite way to relax after a day working on your land projects?"
+      },
+      {
+        "date": "22.07.2025 03:56",
+        "sent_by": "Arne Sundström",
+        "message": "Good evening from Sweden! What are you studying? I like to sit outside and look and listen to nature around me. The bumblebees go from flower to flower and hear the buzz from them. See the butterflies, see and listen to the birds. Or fishing a little if I can catch some fish for my daughters cat. Even I have started to feel sorry for the fish now. If we were together we will find what we will do for relaxation. Often in the autumn one can see elk here and can see the fox all the year around."
+      },
+      {
+        "date": "22.07.2025 03:56",
+        "sent_by": "Arne Sundström",
+        "message": "Are you living alone?"
+      },
+      {
+        "date": "22.07.2025 03:56",
+        "sent_by": "Arne Sundström",
+        "message": "I think you are sleeping now so I will say good morning to you. Have a lovely day and take care"
+      }
+    ],
+    "time_gap": "45.6 hours",
+    "flow_state": "interrupted"
+  },
+  "restart_strategy": [
+    "Acknowledge time gap casually if significant",
+    "Reference last conversation topic naturally",
+    "Bring fresh energy to restart dialogue",
+    "Provide easy engagement hook"
+  ],
+  "critical_requirements": [
+    "Feel natural, not forced",
+    "CRITICAL: NEVER use hyphens (-) or dashes (—, –) - use commas or periods instead",
+    "Match appropriate energy for gap",
+    "Give them easy way to respond"
+  ],
+  "HYPHEN_BAN": {
+    "ABSOLUTELY_FORBIDDEN": [
+      "- (hyphen)",
+      "— (em-dash)",
+      "– (en-dash)"
+    ],
+    "USE_INSTEAD": [
+      ", (comma)",
+      ". (period)",
+      "and",
+      "or",
+      "but"
+    ],
+    "ENFORCEMENT": "If your response contains ANY hyphens or dashes, it will be automatically rejected"
+  },
+  "output_format": "Return JSON: {\"message\": \"your_response_here\"}"
+}

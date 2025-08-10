@@ -1,0 +1,44 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Screenshots and images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Data files (optional - uncomment if you don't want to track data)
+# data/
+
+# Response files
+responses/
+
+# Temporary files
+*.tmp
+*.temp

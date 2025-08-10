@@ -1,0 +1,16 @@
+{
+  "name": "Dan",
+  "age": null,
+  "living_location": "Israel",
+  "living_locations_time_difference_to_bali_time": -5,
+  "additional_information": [
+    "Nationality: Russian",
+    "Job: fencing coach",
+    "Relationship status: single (for 3 years)",
+    "Property: owns villa in Canggu, Bali (rented as investment)",
+    "Hobbies: sports, travel, reading, movies, walking, beach, swimming, spontaneous adventures, bars with friends",
+    "Personality: passionate, values psychological peace",
+    "Background: lived in Russia for ~20 years, dislikes current situation there"
+  ],
+  "future_plans": []
+}

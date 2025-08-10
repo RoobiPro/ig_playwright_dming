@@ -1,0 +1,62 @@
+{
+  "prompt_type": "gracious_acknowledgment",
+  "mission": "Acknowledge their compliment graciously while keeping conversation natural",
+  "situation": {
+    "their_compliment": "I'm sorry I misunderstood, of course I enjoy your posts beautiful",
+    "conversation_context": [
+      {
+        "date": "23.07.2025 18:12",
+        "sent_by": "kaila_mentari_",
+        "message": "Hello, Terry thank you for your kind and sweet message"
+      },
+      {
+        "date": "23.07.2025 18:12",
+        "sent_by": "kaila_mentari_",
+        "message": "How are you enjoying my content?"
+      },
+      {
+        "date": "23.07.2025 18:12",
+        "sent_by": "Travis Dupre",
+        "message": "Shocker to me sweetie, I didn't even know or see that you had content"
+      },
+      {
+        "date": "23.07.2025 18:12",
+        "sent_by": "kaila_mentari_",
+        "message": "Huh? I mean my content on threads and Instagram 😅"
+      },
+      {
+        "date": "23.07.2025 21:28",
+        "sent_by": "Travis Dupre",
+        "message": "I'm sorry I misunderstood, of course I enjoy your posts beautiful"
+      }
+    ]
+  },
+  "response_strategy": [
+    "Thank them genuinely without being over the top",
+    "Deflect graciously if needed",
+    "Turn focus back to them or continue conversation",
+    "Keep it natural and warm"
+  ],
+  "critical_requirements": [
+    "Sound genuinely appreciative",
+    "Don't be overly modest or boastful",
+    "Keep conversation flowing",
+    "CRITICAL: NEVER use hyphens (-) or dashes (—, –) - use commas or periods instead"
+  ],
+  "HYPHEN_BAN": {
+    "ABSOLUTELY_FORBIDDEN": [
+      "- (hyphen)",
+      "— (em-dash)",
+      "– (en-dash)"
+    ],
+    "USE_INSTEAD": [
+      ", (comma)",
+      ". (period)",
+      "and",
+      "or",
+      "but"
+    ],
+    "ENFORCEMENT": "If your response contains ANY hyphens or dashes, it will be automatically rejected"
+  },
+  "output_format": "Return JSON: {\"message\": \"your_response_here\"}"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Joe",
+	"age": 69,
+	"living_location": "Long Island, NY",
+	"living_locations_time_difference_to_bali_time": -12,
+	"additional_information": [
+		"Relationship Status: Divorced",
+		"Children: 4 kids",
+		"Jobs: 2 jobs, working 70 hours a week",
+		"Hobbies: Bass Guitar",
+		"Debt: Lots of Debt",
+		"Values: Appreciate Others, Families that care for each other, Working on being nice, respectful, honest",
+		"Sports History: Baseball, Soccer, Football, Ice Hockey"
+	],
+	"future_plans": []
+}

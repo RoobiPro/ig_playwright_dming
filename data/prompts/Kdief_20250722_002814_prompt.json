@@ -1,0 +1,73 @@
+{
+  "prompt_type": "greeting_response",
+  "mission": "Respond to their greeting warmly and naturally",
+  "situation": {
+    "their_greeting": "I’m just a man so of course the external appearance is the first thing you’re attracted by but after the inner beauty is the most important but you can find it out only when you meet people",
+    "time_context": null,
+    "relationship_context": [
+      {
+        "date": "19.07.2025 15:29",
+        "sent_by": "kaila_mentari_",
+        "message": "I'm 24. Gonna nap a bit now, this village social project is killing me 😅"
+      },
+      {
+        "date": "19.07.2025 15:29",
+        "sent_by": "Kdief",
+        "message": "So young. The spring time of your life"
+      },
+      {
+        "date": "21.07.2025 01:08",
+        "sent_by": "kaila_mentari_",
+        "message": "Your message about springtime made me smile, there's something magical about how you see things. How has your weekend been?"
+      },
+      {
+        "date": "21.07.2025 01:08",
+        "sent_by": "Kdief",
+        "message": "I have been playing golf between two thunder and I was wondering what would have happened if I was 30 years younger and met you"
+      },
+      {
+        "date": "21.07.2025 01:08",
+        "sent_by": "Kdief",
+        "message": "I would have certainly felt in love with you and asked you to marry me"
+      },
+      {
+        "date": "21.07.2025 02:35",
+        "sent_by": "kaila_mentari_",
+        "message": "Your such a sweetheart 🥰 what do you value most in a woman you are attracted to?"
+      },
+      {
+        "date": "21.07.2025 02:35",
+        "sent_by": "Kdief",
+        "message": "I’m just a man so of course the external appearance is the first thing you’re attracted by but after the inner beauty is the most important but you can find it out only when you meet people"
+      }
+    ]
+  },
+  "response_approach": [
+    "Return appropriate greeting",
+    "Add personal touch or question",
+    "Match their energy level",
+    "Keep conversation going"
+  ],
+  "critical_requirements": [
+    "Match greeting appropriately",
+    "Sound natural and warm",
+    "CRITICAL: NEVER use hyphens (-) or dashes (—, –) - use commas or periods instead",
+    "Encourage further conversation"
+  ],
+  "HYPHEN_BAN": {
+    "ABSOLUTELY_FORBIDDEN": [
+      "- (hyphen)",
+      "— (em-dash)",
+      "– (en-dash)"
+    ],
+    "USE_INSTEAD": [
+      ", (comma)",
+      ". (period)",
+      "and",
+      "or",
+      "but"
+    ],
+    "ENFORCEMENT": "If your response contains ANY hyphens or dashes, it will be automatically rejected"
+  },
+  "output_format": "Return JSON: {\"message\": \"your_response_here\"}"
+}

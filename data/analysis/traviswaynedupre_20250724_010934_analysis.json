@@ -1,0 +1,130 @@
+{
+  "analysis": {
+    "last_message": {
+      "date": "23.07.2025 21:28",
+      "sent_by": "Travis Dupre",
+      "message": "I'm sorry I misunderstood, of course I enjoy your posts beautiful"
+    },
+    "hours_since_last": 3.6917094616666666,
+    "timing_category": "recent",
+    "last_message_type": "compliment",
+    "conversation_flow": "active",
+    "response_type": "gracious_acknowledgment",
+    "partner_timezone": null,
+    "conversation_patterns": {
+      "total_exchanges": 6,
+      "kaila_message_count": 3,
+      "partner_message_count": 3,
+      "avg_message_length": 69.16666666666667,
+      "media_shared_count": 0,
+      "conversation_length_days": null,
+      "interaction_style": "verbose"
+    },
+    "total_messages": 6,
+    "analysis_timestamp": "2025-07-24T01:09:30.154062+08:00"
+  },
+  "context_optimization": {
+    "messages": [
+      {
+        "date": "23.07.2025 18:12",
+        "sent_by": "kaila_mentari_",
+        "message": "Hello, Terry thank you for your kind and sweet message"
+      },
+      {
+        "date": "23.07.2025 18:12",
+        "sent_by": "kaila_mentari_",
+        "message": "How are you enjoying my content?"
+      },
+      {
+        "date": "23.07.2025 18:12",
+        "sent_by": "Travis Dupre",
+        "message": "Shocker to me sweetie, I didn't even know or see that you had content"
+      },
+      {
+        "date": "23.07.2025 18:12",
+        "sent_by": "kaila_mentari_",
+        "message": "Huh? I mean my content on threads and Instagram 😅"
+      },
+      {
+        "date": "23.07.2025 21:28",
+        "sent_by": "Travis Dupre",
+        "message": "I'm sorry I misunderstood, of course I enjoy your posts beautiful"
+      }
+    ],
+    "strategy": "immediate_focus",
+    "context_length": 5,
+    "optimization_reasoning": "Using 5 immediate messages for direct response"
+  },
+  "response_data": {
+    "analysis": {
+      "last_message": {
+        "date": "23.07.2025 21:28",
+        "sent_by": "Travis Dupre",
+        "message": "I'm sorry I misunderstood, of course I enjoy your posts beautiful"
+      },
+      "hours_since_last": 3.6917094616666666,
+      "timing_category": "recent",
+      "last_message_type": "compliment",
+      "conversation_flow": "active",
+      "response_type": "gracious_acknowledgment",
+      "partner_timezone": null,
+      "conversation_patterns": {
+        "total_exchanges": 6,
+        "kaila_message_count": 3,
+        "partner_message_count": 3,
+        "avg_message_length": 69.16666666666667,
+        "media_shared_count": 0,
+        "conversation_length_days": null,
+        "interaction_style": "verbose"
+      },
+      "total_messages": 6,
+      "analysis_timestamp": "2025-07-24T01:09:30.154062+08:00"
+    },
+    "context": {
+      "messages": [
+        {
+          "date": "23.07.2025 18:12",
+          "sent_by": "kaila_mentari_",
+          "message": "Hello, Terry thank you for your kind and sweet message"
+        },
+        {
+          "date": "23.07.2025 18:12",
+          "sent_by": "kaila_mentari_",
+          "message": "How are you enjoying my content?"
+        },
+        {
+          "date": "23.07.2025 18:12",
+          "sent_by": "Travis Dupre",
+          "message": "Shocker to me sweetie, I didn't even know or see that you had content"
+        },
+        {
+          "date": "23.07.2025 18:12",
+          "sent_by": "kaila_mentari_",
+          "message": "Huh? I mean my content on threads and Instagram 😅"
+        },
+        {
+          "date": "23.07.2025 21:28",
+          "sent_by": "Travis Dupre",
+          "message": "I'm sorry I misunderstood, of course I enjoy your posts beautiful"
+        }
+      ],
+      "strategy": "immediate_focus",
+      "context_length": 5,
+      "optimization_reasoning": "Using 5 immediate messages for direct response"
+    },
+    "prompt_type": "gracious_acknowledgment",
+    "ai_response": {
+      "generated_message": "Thank you so much for your kind words, that really means a lot to me. I'm glad you're enjoying the content. How's your day going so far?",
+      "reasoning": null,
+      "usage": {
+        "prompt_tokens": 507,
+        "completion_tokens": 46,
+        "total_tokens": 553
+      },
+      "success": true,
+      "hyphen_cleanup_applied": false
+    },
+    "generation_timestamp": "2025-07-24T01:09:34.733961"
+  },
+  "timestamp": "20250724_010934"
+}

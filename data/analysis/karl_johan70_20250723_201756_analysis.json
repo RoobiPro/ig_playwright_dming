@@ -1,0 +1,90 @@
+{
+  "analysis": {
+    "last_message": {
+      "date": "22.07.2025 20:23",
+      "sent_by": "Karl Frode Johansen",
+      "message": "Hi just wanted to say that you are so beautiful 😊🌹 so sad that I am to old if not I would chase you down 😊🌹🌹"
+    },
+    "hours_since_last": 23.913980463333335,
+    "timing_category": "recent",
+    "last_message_type": "greeting",
+    "conversation_flow": "new",
+    "response_type": "conversational_response",
+    "partner_timezone": null,
+    "conversation_patterns": {
+      "total_exchanges": 1,
+      "kaila_message_count": 0,
+      "partner_message_count": 1,
+      "avg_message_length": 108.0,
+      "media_shared_count": 0,
+      "conversation_length_days": 0,
+      "interaction_style": "verbose"
+    },
+    "total_messages": 1,
+    "analysis_timestamp": "2025-07-23T20:17:50.329668+08:00"
+  },
+  "context_optimization": {
+    "messages": [
+      {
+        "date": "22.07.2025 20:23",
+        "sent_by": "Karl Frode Johansen",
+        "message": "Hi just wanted to say that you are so beautiful 😊🌹 so sad that I am to old if not I would chase you down 😊🌹🌹"
+      }
+    ],
+    "strategy": "conversational_flow",
+    "context_length": 1,
+    "optimization_reasoning": "Conversational 1 messages for natural flow"
+  },
+  "response_data": {
+    "analysis": {
+      "last_message": {
+        "date": "22.07.2025 20:23",
+        "sent_by": "Karl Frode Johansen",
+        "message": "Hi just wanted to say that you are so beautiful 😊🌹 so sad that I am to old if not I would chase you down 😊🌹🌹"
+      },
+      "hours_since_last": 23.913980463333335,
+      "timing_category": "recent",
+      "last_message_type": "greeting",
+      "conversation_flow": "new",
+      "response_type": "conversational_response",
+      "partner_timezone": null,
+      "conversation_patterns": {
+        "total_exchanges": 1,
+        "kaila_message_count": 0,
+        "partner_message_count": 1,
+        "avg_message_length": 108.0,
+        "media_shared_count": 0,
+        "conversation_length_days": 0,
+        "interaction_style": "verbose"
+      },
+      "total_messages": 1,
+      "analysis_timestamp": "2025-07-23T20:17:50.329668+08:00"
+    },
+    "context": {
+      "messages": [
+        {
+          "date": "22.07.2025 20:23",
+          "sent_by": "Karl Frode Johansen",
+          "message": "Hi just wanted to say that you are so beautiful 😊🌹 so sad that I am to old if not I would chase you down 😊🌹🌹"
+        }
+      ],
+      "strategy": "conversational_flow",
+      "context_length": 1,
+      "optimization_reasoning": "Conversational 1 messages for natural flow"
+    },
+    "prompt_type": "conversational_response",
+    "ai_response": {
+      "generated_message": "Aw thank you so much, that's really sweet of you to say! Age is just a number though, right? What makes you feel like you're too old? I'm curious to hear more about your perspective.",
+      "reasoning": null,
+      "usage": {
+        "prompt_tokens": 797,
+        "completion_tokens": 56,
+        "total_tokens": 853
+      },
+      "success": true,
+      "hyphen_cleanup_applied": false
+    },
+    "generation_timestamp": "2025-07-23T20:17:56.301613"
+  },
+  "timestamp": "20250723_201756"
+}

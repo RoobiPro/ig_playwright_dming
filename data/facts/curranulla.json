@@ -1,0 +1,14 @@
+{
+  "name": "Jari",
+  "age": 60,
+  "living_location": "Finland",
+  "living_locations_time_difference_to_bali_time": -5,
+  "additional_information": [
+    "Relationship Status: Single (for 5 years)",
+    "Job: Sells machining tools for metal industry",
+    "Hobby: Photography",
+    "Interest: Art appreciation",
+    "Travel: Visited Bali 3 times, likes Ubud and Padang Padang"
+  ],
+  "future_plans": []
+}

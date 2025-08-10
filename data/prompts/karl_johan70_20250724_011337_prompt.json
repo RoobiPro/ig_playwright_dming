@@ -1,0 +1,53 @@
+{
+  "prompt_type": "greeting_response",
+  "mission": "Respond to their greeting warmly and naturally",
+  "situation": {
+    "their_greeting": "Sure age is just a number, but there's also so many that judge when they see an older man with a younger lady. For me it's not a problem, my last girlfriend was 13 years younger than me.",
+    "time_context": null,
+    "relationship_context": [
+      {
+        "date": "22.07.2025 20:23",
+        "sent_by": "Karl Frode Johansen",
+        "message": "Hi just wanted to say that you are so beautiful 😊🌹 so sad that I am to old if not I would chase you down 😊🌹🌹"
+      },
+      {
+        "date": "23.07.2025 20:18",
+        "sent_by": "kaila_mentari_",
+        "message": "Aw thank you so much, that's really sweet of you to say! Age is just a number though, right? What makes you feel like you're too old? I'm curious to hear more about your perspective."
+      },
+      {
+        "date": "23.07.2025 20:18",
+        "sent_by": "Karl Frode Johansen",
+        "message": "Sure age is just a number, but there's also so many that judge when they see an older man with a younger lady. For me it's not a problem, my last girlfriend was 13 years younger than me."
+      }
+    ]
+  },
+  "response_approach": [
+    "Return appropriate greeting",
+    "Add personal touch or question",
+    "Match their energy level",
+    "Keep conversation going"
+  ],
+  "critical_requirements": [
+    "Match greeting appropriately",
+    "Sound natural and warm",
+    "CRITICAL: NEVER use hyphens (-) or dashes (—, –) - use commas or periods instead",
+    "Encourage further conversation"
+  ],
+  "HYPHEN_BAN": {
+    "ABSOLUTELY_FORBIDDEN": [
+      "- (hyphen)",
+      "— (em-dash)",
+      "– (en-dash)"
+    ],
+    "USE_INSTEAD": [
+      ", (comma)",
+      ". (period)",
+      "and",
+      "or",
+      "but"
+    ],
+    "ENFORCEMENT": "If your response contains ANY hyphens or dashes, it will be automatically rejected"
+  },
+  "output_format": "Return JSON: {\"message\": \"your_response_here\"}"
+}

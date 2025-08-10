@@ -1,0 +1,16 @@
+{
+  "name": "John",
+  "age": 60,
+  "living_location": "Toronto",
+  "living_locations_time_difference_to_bali_time": -12,
+  "additional_information": [
+    "Relationship Status: widower",
+    "Job: Marketing consultant",
+    "Hobbies: photography, cycling, hiking, walking, swimming, golf, camping, campfires, stargazing",
+    "Motto: Work hard, play hard, love life",
+    "Favorite Spot: a beach in Bali"
+  ],
+  "future_plans": [
+    "Might lead the chat partner to his favorite beach in Bali"
+  ]
+}

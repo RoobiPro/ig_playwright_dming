@@ -1,0 +1,19 @@
+{
+  "name": "Arno",
+  "age": 50,
+  "living_location": "Paris",
+  "living_locations_time_difference_to_bali_time": -6,
+  "additional_information": [
+    "Job: policeman in a riot squad",
+    "Family: has a niece",
+    "Hobby: photography",
+    "Hobby: going to beach clubs",
+    "Hobby: dancing",
+    "Favorite food: dadar gulung",
+    "Dream: Travelling around the world with the woman I love",
+    "Travel: has visited Indonesia three times",
+    "Cooking skill: disaster in cooking",
+    "Language: Speaks French and basic Indonesian (e.g., Makasih, Suksma)"
+  ],
+  "future_plans": []
+}

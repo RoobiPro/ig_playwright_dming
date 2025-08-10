@@ -1,0 +1,11 @@
+{
+  "name": "Dylan",
+  "age": 47,
+  "living_location": "Konstanz, Germany",
+  "living_locations_time_difference_to_bali_time": -6,
+  "additional_information": [
+                            "Origin: Italy",
+                            "Birth Place: Germany"
+                            ],
+  "future_plans": []
+}

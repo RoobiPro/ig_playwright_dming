@@ -1,0 +1,110 @@
+{
+  "analysis": {
+    "last_message": {
+      "date": "23.07.2025 20:18",
+      "sent_by": "Karl Frode Johansen",
+      "message": "Sure age is just a number, but there's also so many that judge when they see an older man with a younger lady. For me it's not a problem, my last girlfriend was 13 years younger than me."
+    },
+    "hours_since_last": 4.927128298055556,
+    "timing_category": "recent",
+    "last_message_type": "greeting",
+    "conversation_flow": "active",
+    "response_type": "greeting_response",
+    "partner_timezone": null,
+    "conversation_patterns": {
+      "total_exchanges": 3,
+      "kaila_message_count": 1,
+      "partner_message_count": 2,
+      "avg_message_length": 158.66666666666666,
+      "media_shared_count": 0,
+      "conversation_length_days": null,
+      "interaction_style": "verbose"
+    },
+    "total_messages": 3,
+    "analysis_timestamp": "2025-07-24T01:13:37.661873+08:00"
+  },
+  "context_optimization": {
+    "messages": [
+      {
+        "date": "22.07.2025 20:23",
+        "sent_by": "Karl Frode Johansen",
+        "message": "Hi just wanted to say that you are so beautiful 😊🌹 so sad that I am to old if not I would chase you down 😊🌹🌹"
+      },
+      {
+        "date": "23.07.2025 20:18",
+        "sent_by": "kaila_mentari_",
+        "message": "Aw thank you so much, that's really sweet of you to say! Age is just a number though, right? What makes you feel like you're too old? I'm curious to hear more about your perspective."
+      },
+      {
+        "date": "23.07.2025 20:18",
+        "sent_by": "Karl Frode Johansen",
+        "message": "Sure age is just a number, but there's also so many that judge when they see an older man with a younger lady. For me it's not a problem, my last girlfriend was 13 years younger than me."
+      }
+    ],
+    "strategy": "conversational_flow",
+    "context_length": 3,
+    "optimization_reasoning": "Conversational 3 messages for natural flow"
+  },
+  "response_data": {
+    "analysis": {
+      "last_message": {
+        "date": "23.07.2025 20:18",
+        "sent_by": "Karl Frode Johansen",
+        "message": "Sure age is just a number, but there's also so many that judge when they see an older man with a younger lady. For me it's not a problem, my last girlfriend was 13 years younger than me."
+      },
+      "hours_since_last": 4.927128298055556,
+      "timing_category": "recent",
+      "last_message_type": "greeting",
+      "conversation_flow": "active",
+      "response_type": "greeting_response",
+      "partner_timezone": null,
+      "conversation_patterns": {
+        "total_exchanges": 3,
+        "kaila_message_count": 1,
+        "partner_message_count": 2,
+        "avg_message_length": 158.66666666666666,
+        "media_shared_count": 0,
+        "conversation_length_days": null,
+        "interaction_style": "verbose"
+      },
+      "total_messages": 3,
+      "analysis_timestamp": "2025-07-24T01:13:37.661873+08:00"
+    },
+    "context": {
+      "messages": [
+        {
+          "date": "22.07.2025 20:23",
+          "sent_by": "Karl Frode Johansen",
+          "message": "Hi just wanted to say that you are so beautiful 😊🌹 so sad that I am to old if not I would chase you down 😊🌹🌹"
+        },
+        {
+          "date": "23.07.2025 20:18",
+          "sent_by": "kaila_mentari_",
+          "message": "Aw thank you so much, that's really sweet of you to say! Age is just a number though, right? What makes you feel like you're too old? I'm curious to hear more about your perspective."
+        },
+        {
+          "date": "23.07.2025 20:18",
+          "sent_by": "Karl Frode Johansen",
+          "message": "Sure age is just a number, but there's also so many that judge when they see an older man with a younger lady. For me it's not a problem, my last girlfriend was 13 years younger than me."
+        }
+      ],
+      "strategy": "conversational_flow",
+      "context_length": 3,
+      "optimization_reasoning": "Conversational 3 messages for natural flow"
+    },
+    "prompt_type": "greeting_response",
+    "ai_response": {
+      "generated_message": "That's a really interesting perspective! Age gaps can definitely draw some unnecessary attention, but it sounds like you've had positive experiences regardless. What was the best part about dating someone younger, in your opinion? Just curious to hear more about your experiences.",
+      "reasoning": null,
+      "usage": {
+        "prompt_tokens": 541,
+        "completion_tokens": 62,
+        "total_tokens": 603
+      },
+      "success": true,
+      "hyphen_cleanup_applied": false
+    },
+    "generation_timestamp": "2025-07-24T01:13:42.980729"
+  },
+  "timestamp": "20250724_011342"
+}
