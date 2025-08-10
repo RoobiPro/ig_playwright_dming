@@ -35,29 +35,17 @@ def convert_cookie(cookie: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def setup_browser_context(playwright, headless: bool = None) -> Tuple[Any, Page]:
-    """Initialize browser context with cookies and window positioning"""
+    """Initialize browser context with default window positioning"""
     if headless is None:
         headless = config.HEADLESS_MODE
     
-    # Get screen configuration for window positioning
+    # Launch browser with default positioning (no custom coordinates)
     if not headless:
-        window_config = config.get_screen_configuration()
-        print(f"Positioning browser window at: {window_config}")
-        
-        # Use exact calibrated positioning (no adjustment needed since it's manually calibrated)
-        adjusted_x = window_config['x']
-        adjusted_y = window_config['y']
-        adjusted_width = window_config['width']
-        adjusted_height = window_config['height']
-        
-        print(f"Adjusted position: x={adjusted_x}, y={adjusted_y}, width={adjusted_width}, height={adjusted_height}")
+        print("Using default browser window positioning")
         
         browser = playwright.chromium.launch(
             headless=headless,
             args=[
-                f"--window-position={adjusted_x},{adjusted_y}",
-                f"--window-size={adjusted_width},{adjusted_height}",
-                "--start-maximized=false",  # Prevent auto-maximize
                 "--disable-extensions",     # Disable extensions that might affect positioning
                 "--disable-default-apps",   # Disable default apps
                 "--no-first-run",          # Skip first run experience
@@ -85,21 +73,14 @@ def setup_browser_context(playwright, headless: bool = None) -> Tuple[Any, Page]
     
     page = context.new_page()
     
-    # Additional positioning adjustment after page creation
+    # Apply basic styling adjustments (keeping zoom functionality)
     if not headless:
         try:
             # Wait a moment for the window to fully load
             page.wait_for_timeout(1000)
             
-            # Use JavaScript to fine-tune window positioning and set zoom
-            page.evaluate(f"""
-                // Move window to exact position
-                window.moveTo({adjusted_x}, {adjusted_y});
-                
-                // Resize to exact dimensions
-                window.resizeTo({adjusted_width}, {adjusted_height});
-                
-                // Set transform scale to 80% to see more content while filling viewport
+            # Set transform scale to 80% to see more content while filling viewport
+            page.evaluate("""
                 document.body.style.transform = 'scale(0.8)';
                 document.body.style.transformOrigin = 'top left';
                 document.body.style.width = '125%';  // 100% / 0.8 = 125%
@@ -108,15 +89,13 @@ def setup_browser_context(playwright, headless: bool = None) -> Tuple[Any, Page]
                 // Ensure window is focused and on top
                 window.focus();
                 
-                console.log('Window positioned at:', window.screenX, window.screenY);
-                console.log('Window size:', window.outerWidth, window.outerHeight);
                 console.log('Transform scale set to: 80%');
             """)
             
-            print(f"Final window positioning completed")
+            print("Basic styling adjustments applied")
             
         except Exception as e:
-            print(f"Warning: Could not fine-tune window positioning: {e}")
+            print(f"Warning: Could not apply styling adjustments: {e}")
     
     return browser, page
 

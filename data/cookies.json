@@ -40,7 +40,7 @@
     },
     {
         "domain": ".instagram.com",
-        "expirationDate": 1761048171.092417,
+        "expirationDate": 1762602414.204358,
         "hostOnly": false,
         "httpOnly": false,
         "name": "ds_user_id",
@@ -53,7 +53,7 @@
     },
     {
         "domain": ".instagram.com",
-        "expirationDate": 1768824171.092273,
+        "expirationDate": 1770378414.204239,
         "hostOnly": false,
         "httpOnly": false,
         "name": "csrftoken",
@@ -62,7 +62,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "M6Ig6MXyuJuUYI5FGMMw7OsuPbRT2G4Y"
+        "value": "vKLFrS36rhSCuV1LuJ82km4ViyKoXYZC"
     },
     {
         "domain": ".instagram.com",
@@ -92,7 +92,7 @@
     },
     {
         "domain": ".instagram.com",
-        "expirationDate": 1753876965,
+        "expirationDate": 1755431214,
         "hostOnly": false,
         "httpOnly": false,
         "name": "wd",
@@ -101,7 +101,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "2899x1427"
+        "value": "1740x816"
     },
     {
         "domain": ".instagram.com",
@@ -118,7 +118,7 @@
     },
     {
         "domain": ".instagram.com",
-        "expirationDate": 1768824163.6033,
+        "expirationDate": 1770378406.610457,
         "hostOnly": false,
         "httpOnly": true,
         "name": "sessionid",
@@ -127,11 +127,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "32661350698%3AndIPHVspHZazB1%3A23%3AAYdF9Bad5sPx02KYkowWD_D2t2Pa5Jwkbw59WikLBQ"
+        "value": "32661350698%3AnWxqIijZWfuKXX%3A23%3AAYdhmkO3CzUty8yij8Wo7ittqOhbdt_UIYqylQam5w"
     },
     {
         "domain": ".instagram.com",
-        "expirationDate": 1753876965,
+        "expirationDate": 1755431214,
         "hostOnly": false,
         "httpOnly": false,
         "name": "dpr",
@@ -140,7 +140,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "0.8833333253860474"
+        "value": "1.1041666269302368"
     },
     {
         "domain": ".instagram.com",
@@ -152,6 +152,6 @@
         "secure": true,
         "session": true,
         "storeId": null,
-        "value": "\"HIL\\05432661350698\\0541784808171:01fe79af2c6f9d00707cc08a6b84b4e7b8686fa5197c2cef3be007e24e2cc8acc10e47ea\""
+        "value": "\"CLN\\05432661350698\\0541786362415:01fea31d39c1b3ff1d202b764da7b452eea0f1aab39dd14027afffa66f092625796a2f41\""
     }
 ]
